@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,7 +17,9 @@
             <!-- This div contains the navigation bar -->
             <div>
                 <nav>
-                    <h3>
+                    <h3
+                        style="font-size: clamp(15px,2vw,18px); text-align: center; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+
                         <a href="home.html">Home</a>
                         <a href="about.html">About</a>
                         <a href="work.html">Work</a>
@@ -34,18 +37,22 @@
             <h2> Contact Details</h2>
             <h3>
                 <!-- This is a contact form -->
-                <form>
+                <form
+                    style="background-color: white; color: #333; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); max-width: 400px; margin: 0 auto; margin-bottom: 10px;">
 
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
+                    <label for="name" style="text-align: center; font-size: clamp(14px, 2vw, 16px); ">Name:</label>
+                    <input type="text" id="name" name="name" style="height: 40px; border-radius: 10px;"><br><br>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
+                    <label for="email" style="text-align: center; font-size: clamp(14px, 2vw, 16px); ">Email:</label>
+                    <input type="email" id="email" name="email" style="height: 40px; border-radius: 10px;"><br><br>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" cols="30" rows="5"></textarea><br><br>
+                    <label for="message"
+                        style="text-align: center; font-size: clamp(14px, 2vw, 16px); ">Message:</label>
+                    <textarea id="message" name="message" cols="30" rows="5"
+                        style="border: 1px solid black; border-radius: 10px;"></textarea><br><br>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit"
+                        style="background-color: #6f69c9; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: clamp(14px, 2vw, 16px);">
                 </form>
             </h3>
 

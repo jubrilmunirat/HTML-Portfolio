@@ -5,6 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #6f69c9;
+        }
+
+        tr:nth-child(even) {
+            background-color: #9476e9;
+        }
+
+        a:hover {
+            color: #6f69c9;
+            border: 1px solid #6f69c9;
+            padding: clamp(5px, 1vw, 10px);
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,7 +45,9 @@
             <!-- This div contains the navigation bar -->
             <div>
                 <nav>
-                    <h3>
+                    <h3
+                        style="font-size: clamp(15px,2vw,18px); text-align: center; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+
                         <a href="home.html">Home</a>
                         <a href="about.html">About</a>
                         <a href="work.html">Work</a>
