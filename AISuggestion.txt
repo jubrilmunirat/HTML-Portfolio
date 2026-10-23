@@ -1,0 +1,7 @@
+I gave AI the main section in my resume.html page.
+Here is AI suggestion:
+Your HTML code is structured well and looks great visually, but it has a few HTML syntax issues that should be fixed:
+Unclosed <center> Tag: You opened a <center> tag right before the <header> element, but you never closed it before the end of the <body> (though I added a closing </center> tag in the corrected code snippet above). Note that the <center> tag is also deprecated in modern HTML; it is much better practice to use CSS (like text-align: center;) for styling.
+Audio MIME Type Mismatch: Your audio file has a .aac extension, but the type attribute was set to "audio/mpeg" (which is for MP3 files). I updated it to "audio/aac" so browsers know how to read the file format properly.
+Closing Tags: Ensure all major layout tags are properly opened and closed in order.
+After carefully reviewing the AI suggestion i checked my code and i realized i did not closed the center tags, also the audio extensions too. I made changes to them and i did not make use of the in-line CSS AI suggested for center tags because, the instructions was to make use of HTML not CSS.
